@@ -108,7 +108,7 @@ struct timer {
 };
 
 int main() {
-  constexpr std::size_t iter_count = 1e6;
+  constexpr std::size_t iter_count = 1e8;
 
   timer::start();
 
